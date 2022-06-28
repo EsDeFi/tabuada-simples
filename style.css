@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Coda&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: lightgrey;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+
+
+h1 {
+    font-family: 'Coda', cursive;
+    color: rgb(0, 0, 0);
+    
+}
+
+div#container {
+    background-color: rgba(252, 250, 250, 0.897);
+    width: 370px; 
+    margin: auto;
+    padding: 15px;
+    margin-top: 30px;
+    border-radius: 4px;
+    border: 2px solid black;
+    box-shadow: 6px 8px 5px rgba(0, 0, 0, 0.578);
+}
+
+input#numero{
+    background-color: rgba(128, 128, 128, 0.227);
+    width: 300px;
+    height: 40px;
+    font-size:  1em;
+    border-radius: 5px;
+    box-shadow: 2px 1px 2px rgba(0, 0, 0, 0.785);
+    margin-bottom: 10px;
+}
+
+
+section#tipoTab {
+    width:300px;
+    font-size: 1em;
+    display: flex;
+    margin: auto;
+}
+
+
+section#mostraTab {
+    background-color: rgba(128, 128, 128, 0.453);
+    width: 265px;
+    height: 200px;
+    font-size: 1em;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 3px 1px 3px rgba(0, 0, 0, 0.785);
+    margin: auto;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+
+select#selecao {
+    background-color: white;
+    width: 160px;
+    height: 40px;
+    margin: auto;
+    font-size: 1em;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 3px 1px 3px rgba(0, 0, 0, 0.785);
+
+}
+
+button:hover {
+    background-color:rgba(128, 128, 128, 0.453);
+    color: white;
+    font-weight: bold;
+}
+
+button {
+    background-color: rgb(0, 200, 255);
+    width: 300px;
+    height: 50px;
+    font-size: 1.1em;
+    border-radius: 5px;
+    font-family: 'Coda', cursive;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 2px 1px 2px rgba(0, 0, 0, 0.785);
+}
+
+p {
+    font-family: 'Coda', cursive;
+    font-size: 0.9em;
+    padding: 9px;
+}
+
+hr {
+    margin-top: 15px;
+}
+
+span {
+    background-color:  rgb(0, 200, 255);
+    font-weight: bold;
+}
